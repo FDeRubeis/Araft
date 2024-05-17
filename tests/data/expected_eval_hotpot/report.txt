@@ -1,0 +1,9 @@
+EASY
+f1_score: 0.00, total: 1
+MEDIUM
+f1_score: 1.00, total: 3
+HARD
+f1_score: 0.67, total: 1
+ALL
+f1_score: 1.67, total: 5
+

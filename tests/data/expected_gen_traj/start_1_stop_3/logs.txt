@@ -1,0 +1,2 @@
+[2024-04-04 00:00][id: 5a70fb2d5542994082a3e482][ordinal: 1]: Agent answer: Cabo Saint Lucas. Label: Cabo San Lucas. f1_score: 0.67
+[2024-04-04 00:00][id: 5a8d9501554299068b959d4d][ordinal: 2]: Agent answer: Phoenix dactylifera. Label: Malta. f1_score: 0.00

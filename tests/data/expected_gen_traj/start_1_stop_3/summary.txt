@@ -1,0 +1,1 @@
+Start index (inclusive): 1. Stop index (exclusive): 3. Successful trajectories count: 1.
