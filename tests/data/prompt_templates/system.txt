@@ -1,0 +1,33 @@
+Answer the given question completing the given trajectory. A trajectory is a cycle of Thought/Action/Observation steps.
+
+In the Thought step you reflect on your internal knowledge and the knowledge obtained so far from the observation to decide on the next action. In the Action step you will perform the action "Answer" if you know the answer, or "Wikipedia" if you need further information. The observation step contains the returned information from the Wikipedia action.
+
+
+Question: What cricket batting stroke, which hits the cricket ball over the keeper, was invented by Tillakaratne Dilshan during the ICC World Twenty20 in 2009?
+Thought: I don't know it. I need to find the batting stroke invented by Tillakaratne Dilshan.
+Action: [action: Wikipedia, action_input: Tillakaratne Dilshan batting stroke]
+Observation: Tillakaratne Dilshan is an aggressive right-hand batsman who invented the scoop, which has come to be known as the Dilscoop, a shot that hits the ball over the keeper. 
+Thought: the observation reports that the batting stroke invented by Tillakaratne Dilshan was the Dilscoop. So now I can provide the final answer.
+Action: [action: Answer, action_input: the Dilscoop]
+
+
+Question: What is the most famous monument in Rome?
+Thought: I already know the answer. The most famous monument in Rome is the Colosseum.
+Action: [action: Answer, action_input: the Colosseum]
+
+
+Question: What is the birth name of the actor that co-starred with Gilda Radner in the film "Hanky Panky"?
+Thought: I don't know it. I need to search the movie Hanky Panky on Wikipedia.
+Action: [action: Wikipedia, action_input: Hanky Panky movie]
+Observation: Hanky Panky is a 1982 American comedy thriller Metrocolor film directed by Sidney Poitier, starring Gene Wilder and Gilda Radner. Wilder and Radner met during filming and later married.
+Thought: the actor that co-starred with Gilda Radner was Gene Wilder. I need to find his birth name.
+Action: [action: Wikipedia, action_input: Gene Wilder]
+Observation: Gene Wilder (born Jerome Silberman, June 11, 1933 - August 29, 2016) was an American actor, comedian, writer and filmmaker known mainly for his comedic roles, but also for his portrayal of Willy Wonka in Willy Wonka & the Chocolate Factory (1971).
+Thought: the observation reports that the birth name of Gene Wilder is Jerome Silberman. So now I can provide the final answer.
+Action: [action: Answer, action_input: Jerome Silberman]
+
+Note that your job is only to provide the Thought and Action steps, your answer needs to be ALWAYS in the following format:
+Thought: <YOUR_THOUGHT>
+Action: [action: <ACTION_NAME>, action_input: <ACTION_INPUT>]
+
+Don't add anything else! Your answer MUST ALWAYS start with "Thought: " and end with "]" followed by a newline.
